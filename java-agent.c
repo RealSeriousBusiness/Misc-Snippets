@@ -2,6 +2,8 @@
 #include "stdio.h"
 #include "string.h"
 
+//a simple java agent
+
 static void JNICALL callbackVMObjectAlloc
     (jvmtiEnv *jvmti_env, JNIEnv* jni_env, jthread thread, 
              jobject object, jclass object_klass, jlong size) 
